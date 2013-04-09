@@ -14,11 +14,11 @@
 Set-StrictMode -version Latest
 
 # Make sure we are running in the NuGet Package Manager Console.
-if ($host.Name -ne "Package Manager Host")
-{
-    Write-Warning "This installation script can only be run from inside the NuGet Package Manager Console."
-    return
-}
+# if ($host.Name -ne "Package Manager Host")
+# {
+    # Write-Warning "This installation script can only be run from inside the NuGet Package Manager Console."
+    # return
+# }
 
 # Check if the proper files exist.
 $files = ".\about_WintellectVSCmdlets.help.txt",".\WintellectVSCmdlets.psd1",".\WintellectVSCmdlets.psm1"
