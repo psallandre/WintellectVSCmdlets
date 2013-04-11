@@ -44,11 +44,8 @@ if (! (Test-Path $fullPath) )
 Copy-Item $files -Destination $fullPath
 
 "The WintellectVSCmdlets module is ready for use." 
-""
 "Execute 'Import-Module WintellectVSCmdlets' to load."
-""
 "Consider adding to $profile to ensure the cmdlets are always available."
-""
 "Learn about the commands with 'help WintellectVSCmdlets' after loading."
 
 
